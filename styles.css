@@ -1,0 +1,14 @@
+.top-buttons {
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+   
+}
+
+
+
+.bottom-buttons {
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+}
