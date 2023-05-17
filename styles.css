@@ -1,12 +1,3 @@
-.top-buttons {
-    display: flex;
-    font-size: larger;
-   
-}
-
-
-
-.bottom-buttons {
-    display: flex;
-    font-size: larger;
+h1 {
+    text-align: center;
 }

@@ -1,6 +1,6 @@
 
 //Hunger
-let hunger = 2000;
+let hunger = 200;
 const decreaseHungerRate = 1;
 
 function updateHunger() {
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 //Bathroom
 
-let bathroom = 2000;
+let bathroom = 200;
 const decreaseBathroomRate = 1;
 
 function updateBathroom() {
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 //Mood
 
-let mood = 2000;
+let mood = 200;
 const decreaseMoodRate = 1;
 
 function updateMood() {
@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 //sickness
 
-let sickness = 2000;
+let sickness = 200;
 const decreaseSicknessRate = 1;
 
 function updateSickness() {
@@ -104,7 +104,7 @@ function updateSickness() {
 
   if (sickness <= 0) {
     sicknessElement.textContent = 'YOUUU KILLLEDD MEEEEE';
-    document.getElementById('increaseHungerBtn').disabled = true;
+    document.getElementById('increaseSicknessBtn').disabled = true;
     return;
   }
 
@@ -123,3 +123,22 @@ document.addEventListener('DOMContentLoaded', (event) => {
     increaseSickness(10);
   });
 });
+
+
+function isPetAwake() {
+    const currentHour = new Date().getHours();
+    return currentHour >= 8 && currentHour < 19;
+    
+}
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const sleepElement = document.getElementById("Sleep");
+  
+    if (isPetAwake()) {
+      sleepElement.textContent = "Your pet is currently awake!";
+    } else {
+      sleepElement.textContent = "Your pet is currently sleeping!";
+    }
+  });
+  
