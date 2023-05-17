@@ -1,3 +1,5 @@
+
+//Hunger
 let hunger = 2000;
 const decreaseHungerRate = 1;
 
@@ -27,6 +29,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
   });
 });
 
+
+//Bathroom
+
 let bathroom = 2000;
 const decreaseRate = 1;
 
@@ -36,7 +41,7 @@ function updateBathroom() {
 
   if (bathroom <= 0) {
     bathroomElement.textContent = 'YOUUU KILLLEDD MEEEEE';
-    document.getElementById('increaseBtn').disabled = true;
+    document.getElementById('increaseBtn1').disabled = true;
     return;
   }
 
@@ -50,8 +55,8 @@ function increaseBathroom(amount) {
 document.addEventListener('DOMContentLoaded', (event) => {
   setInterval(updateBathroom, 100);
 
-  const increaseBtn = document.getElementById('increaseBtn');
-  increaseBtn.addEventListener('click', () => {
+  const increaseBtn1 = document.getElementById('increaseBtn1');
+  increaseBtn1.addEventListener('click', () => {
     increaseBathroom(10);
   });
 });
