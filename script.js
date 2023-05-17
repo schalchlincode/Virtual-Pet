@@ -125,6 +125,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
 });
 
 
+//sleep
+
 function isPetAwake() {
     const currentHour = new Date().getHours();
     return currentHour >= 8 && currentHour < 19;
@@ -142,3 +144,22 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
   
+
+  //Attention
+function petNeedsAttention() {
+    const attentionElement = document.getElementById("Attention");
+  
+    if (hunger < 50) {
+      attentionElement.textContent = "Your pet needs attention";
+    } else {
+      attentionElement.textContent = ""; // Clear the attention text if hunger is not less than 50
+    }
+  }
+  
+  document.addEventListener("DOMContentLoaded", function() {
+    setInterval(petNeedsAttention, 100); // Call petNeedsAttention every 100 milliseconds
+  });
+  
+
+  
+
