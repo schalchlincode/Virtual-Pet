@@ -155,11 +155,31 @@ function petNeedsAttention() {
       attentionElement.textContent = ""; // Clear the attention text if hunger is not less than 50
     }
   }
+
   
-  document.addEventListener("DOMContentLoaded", function() {
+   document.addEventListener("DOMContentLoaded", function() {
     setInterval(petNeedsAttention, 100); // Call petNeedsAttention every 100 milliseconds
   });
   
 
+//Light Switch
+document.addEventListener('DOMContentLoaded', function() {
+    const lightElement = document.getElementById("Light");
+    let isLightOn = false; // Variable to keep track of the light state
+  
+    function lightSwitch() {
+      if (isLightOn) {
+        lightElement.textContent = "off";
+        isLightOn = false;
+      } else {
+        lightElement.textContent = "on";
+        isLightOn = true;
+      }
+    }
+  
+    lightElement.addEventListener('click', lightSwitch);
+  });
+  
+  
   
 

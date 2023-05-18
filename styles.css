@@ -1,4 +1,21 @@
 h1 {
     text-align: center;
+    font-family: "comic sans ms";
 }
 
+p {
+text-align: center;
+
+}
+
+#button-container {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
