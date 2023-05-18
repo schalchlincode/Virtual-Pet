@@ -3,6 +3,7 @@ h1 {
     font-family: "comic sans ms";
     font-size: 75px;
     color: #0264c3;
+    text-shadow: 2px 2px 0 black;
 }
 
 p {
@@ -10,6 +11,7 @@ text-align: center;
 color:#0264c3;
 font-weight: bolder;
 font-size: 25px;
+text-shadow: 1px 1px 0 black;
 
 }
 
