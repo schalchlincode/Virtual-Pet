@@ -1,10 +1,15 @@
 h1 {
     text-align: center;
     font-family: "comic sans ms";
+    font-size: 75px;
+    color: #0264c3;
 }
 
 p {
 text-align: center;
+color:#0264c3;
+font-weight: bolder;
+font-size: 25px;
 
 }
 
@@ -18,4 +23,11 @@ text-align: center;
     align-items: center;
     justify-content: center;
     text-align: center;
+    
+}
+
+/* #0264c3 blue yellow #edcf4d */
+
+body {
+    background-color: #edcf4d ;
 }
