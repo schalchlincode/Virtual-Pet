@@ -33,3 +33,8 @@ text-shadow: 1px 1px 0 black;
 body {
     background-color: #edcf4d ;
 }
+
+#increaseHungerBtn {
+    height: 100px;
+    width: 100px;
+}

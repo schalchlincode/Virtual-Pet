@@ -163,23 +163,23 @@ function petNeedsAttention() {
   
 
 //Light Switch
-document.addEventListener('DOMContentLoaded', function() {
-    const lightElement = document.getElementById("Light");
-    let isLightOn = false; // Variable to keep track of the light state
+//document.addEventListener('DOMContentLoaded', function() {
+    //const lightElement = document.getElementById("Light");
+    //let isLightOn = false; // Variable to keep track of the light state
   
-    function lightSwitch() {
-      if (isLightOn) {
-        lightElement.textContent = "Off";
-        document.body.style.backgroundColor = 'black';
-        isLightOn = false;
-      } else {
-        lightElement.textContent = "On";
-        isLightOn = true;
-      }
-    }
+    //function lightSwitch() {
+      //if (isLightOn) {
+        //lightElement.textContent = "off";
+        //document.body.style.backgroundColor = 'black';
+        //isLightOn = false;
+      //} else {
+        //lightElement.textContent = "on";
+        //isLightOn = true;
+      //}
+    //}
   
-    lightElement.addEventListener('click', lightSwitch);
-  });
+    //lightElement.addEventListener('click', lightSwitch);
+  //});
   
   
   
