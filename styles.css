@@ -34,8 +34,31 @@ body {
     background-color: #edcf4d ;
 }
 
-#increaseHungerBtn {
-    width: 200px;
+#icon-container {
+    display: flex;
+  
+    
     
 
+}
+
+#increaseHungerBtn {
+    width: 50px;
+    
+}
+
+#increaseBathroomBtn {
+    width: 50px;
+}
+
+#increaseMoodBtn {
+    width: 60px;
+}
+
+#Light {
+    width: 50px;
+}
+
+#increaseSicknessBtn {
+    width: 50px;
 }
