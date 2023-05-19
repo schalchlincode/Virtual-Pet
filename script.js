@@ -169,11 +169,11 @@ document.addEventListener('DOMContentLoaded', function() {
   
     function lightSwitch() {
       if (isLightOn) {
-        lightElement.textContent = "Off";
+        lightElement.textContent = "off";
         document.body.style.backgroundColor = 'black';
         isLightOn = false;
       } else {
-        lightElement.textContent = "On";
+        lightElement.textContent = "on";
         isLightOn = true;
       }
     }
@@ -183,4 +183,3 @@ document.addEventListener('DOMContentLoaded', function() {
   
   
   
-
