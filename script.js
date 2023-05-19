@@ -1,6 +1,6 @@
 
 //Hunger
-let hunger = 200;
+let hunger = 2000;
 const decreaseHungerRate = 1;
 
 function updateHunger() {
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 //Bathroom
 
-let bathroom = 200;
+let bathroom = 2000;
 const decreaseBathroomRate = 1;
 
 function updateBathroom() {
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 //Mood
 
-let mood = 200;
+let mood = 2000;
 const decreaseMoodRate = 1;
 
 function updateMood() {
@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 //sickness
 
-let sickness = 200;
+let sickness = 2000;
 const decreaseSicknessRate = 1;
 
 function updateSickness() {

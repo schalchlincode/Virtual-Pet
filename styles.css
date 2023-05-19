@@ -7,11 +7,13 @@ h1 {
 }
 
 p {
-text-align: center;
-color:#0264c3;
+
+/*color:#0264c3;*/
+color: black;
 font-weight: bolder;
-font-size: 25px;
-text-shadow: 1px 1px 0 black;
+font-size: 20px;
+/*text-shadow: 1px 1px 0 black;*/
+align-items: left;
 
 }
 
@@ -22,9 +24,9 @@ text-shadow: 1px 1px 0 black;
 #container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     
 }
 
@@ -36,10 +38,12 @@ body {
 
 #icon-container {
     display: flex;
-  
-    
-    
+    justify-content: center;
+}
 
+#icon-container-bottom {
+    display: flex;
+    justify-content: center;
 }
 
 #increaseHungerBtn {
@@ -62,3 +66,17 @@ body {
 #increaseSicknessBtn {
     width: 50px;
 }
+
+#screen-place-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #screen-place-holder img {
+    width: 175px;
+    height: 175px;
+    object-fit: contain;
+  }
+  
+
