@@ -7,18 +7,20 @@ h1 {
 }
 
 p {
-
-/*color:#0264c3;*/
-color: black;
-font-weight: bolder;
-font-size: 20px;
-/*text-shadow: 1px 1px 0 black;*/
-align-items: left;
-
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
 }
 
-#button-container {
-    text-align: center;
+body {
+    background-color: #edcf4d;
+}
+
+#button-container,
+#icon-container,
+#tamagotchi {
+    display: flex;
+    justify-content: center;
 }
 
 #container {
@@ -27,18 +29,16 @@ align-items: left;
     align-items: left;
     justify-content: center;
     text-align: left;
+}
+
+#increaseHungerBtn,
+#increaseBathroomBtn,
+#Light,
+#increaseSicknessBtn,
+#increaseMoodBtn {
+    width: 25px;
+    /* margin-bottom: 20px; */
     
-}
-
-/* #0264c3 blue yellow #edcf4d */
-
-body {
-    background-color: #edcf4d ;
-}
-
-#icon-container {
-    display: flex;
-    justify-content: center;
 }
 
 #icon-container-bottom {
@@ -46,37 +46,35 @@ body {
     justify-content: center;
 }
 
-#increaseHungerBtn {
-    width: 50px;
+#tamagotchi img {
+    width: 75px;
+    height: 75px;
     
 }
 
-#increaseBathroomBtn {
-    width: 50px;
-}
+#screen-border {
 
-#increaseMoodBtn {
-    width: 60px;
-}
-
-#Light {
-    width: 50px;
-}
-
-#increaseSicknessBtn {
-    width: 50px;
-}
-
-#screen-place-holder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  #screen-place-holder img {
-    width: 175px;
-    height: 175px;
     object-fit: contain;
-  }
-  
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 50% / 75% 100% 100% 75%;
+
+
+}
+
+#egg-container {
+    position: relative;
+    margin: 0 auto;
+    width: 300px;
+    height: 400px;
+    background-color: #eeeeee;
+    border-radius: 50% / 60% 60% 40% 40%;
+    box-shadow: 2px 2px 5px #000;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 
