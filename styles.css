@@ -1,19 +1,19 @@
+body {
+    background-color: #edcf4d;
+}
+
 h1 {
-    text-align: center;
+    color: #0264c3;
     font-family: "comic sans ms";
     font-size: 75px;
-    color: #0264c3;
+    text-align: center;
     text-shadow: 2px 2px 0 black;
 }
 
 p {
     color: black;
-    font-weight: bolder;
     font-size: 20px;
-}
-
-body {
-    background-color: #edcf4d;
+    font-weight: bolder;
 }
 
 #button-container,
@@ -24,21 +24,19 @@ body {
 }
 
 #container {
+    align-items: left;
     display: flex;
     flex-direction: column;
-    align-items: left;
     justify-content: center;
     text-align: left;
 }
 
-#increaseHungerBtn,
 #increaseBathroomBtn,
-#Light,
+#increaseHungerBtn,
+#increaseMoodBtn,
 #increaseSicknessBtn,
-#increaseMoodBtn {
+#Light {
     width: 25px;
-    /* margin-bottom: 20px; */
-    
 }
 
 #icon-container-bottom {
@@ -47,34 +45,41 @@ body {
 }
 
 #tamagotchi img {
-    width: 75px;
     height: 75px;
-    
+    width: 75px;
 }
 
 #screen-border {
-
-    object-fit: contain;
-    padding: 30px;
     border: 2px solid black;
     border-radius: 50% / 75% 100% 100% 75%;
-
-
+    object-fit: contain;
+    padding: 30px;
+    background-color: lightgray;
 }
 
 #egg-container {
-    position: relative;
-    margin: 0 auto;
-    width: 300px;
-    height: 400px;
-    background-color: #eeeeee;
+    align-items: center;
+    background-image: url("images/tamabackground.png");
+    background-size: cover; /* this will cover the entire area of the container */
+    background-position: center; /* this will center the image */
     border-radius: 50% / 60% 60% 40% 40%;
     box-shadow: 2px 2px 5px #000;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    height: 400px;
     justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 300px;
 }
 
-
+#inner-container {
+    align-items: center;
+    background-color: #eeeeee; /* choose the color you want for the inner container */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
