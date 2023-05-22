@@ -16,7 +16,7 @@ p {
     font-weight: bolder;
 }
 
-#button-container,
+
 #icon-container,
 #tamagotchi {
     display: flex;
@@ -35,13 +35,13 @@ p {
 #increaseHungerBtn,
 #increaseMoodBtn,
 #increaseSicknessBtn,
-#Light {
+#Light, #scale, #discipline, #exclamation {
     width: 25px;
 }
 
 #icon-container-bottom {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 #tamagotchi img {
@@ -63,6 +63,7 @@ p {
     background-size: cover; /* this will cover the entire area of the container */
     background-position: center; /* this will center the image */
     border-radius: 50% / 60% 60% 40% 40%;
+    border: 2px solid black;
     box-shadow: 2px 2px 5px #000;
     display: flex;
     flex-direction: column;
