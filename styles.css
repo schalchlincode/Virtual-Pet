@@ -21,6 +21,9 @@ p {
 #tamagotchi {
     display: flex;
     justify-content: center;
+   
+   
+    
 }
 
 #container {
@@ -42,6 +45,7 @@ p {
 #icon-container-bottom {
     display: flex;
     justify-content: left;
+    
 }
 
 #tamagotchi img {
@@ -51,11 +55,14 @@ p {
 
 #screen-border {
     border: 2px solid black;
-    border-radius: 50% / 75% 100% 100% 75%;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
     object-fit: contain;
     padding: 30px;
     background-color: lightgray;
 }
+
 
 #egg-container {
     align-items: center;
